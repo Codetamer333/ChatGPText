@@ -1,0 +1,21 @@
+{
+    "name": "ChatGPT-Bot",
+    "version": "1.0",
+    "description": "Extension that takes input and returns ChatGPT answer",
+    "permissions": [
+      "tabs"
+    ],
+    "icons": {
+        "16": "./images/clippy16.png",
+        "48": "./images/clippy48.png",
+        "128": "./images/clippy128.png"
+      },
+    "manifest_version": 3,
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
